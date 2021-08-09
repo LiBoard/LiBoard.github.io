@@ -10,10 +10,13 @@ github_username:  LiBoard
 # Build settings
 markdown: kramdown
 remote_theme: pmarsceill/just-the-docs
-plugins:
-  - jekyll-feed
 exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
   - .vendor
+logo: "/assets/images/icon.png"
+aux_links:
+  "GitHub":
+    - "//github.com/LiBoard"
+
