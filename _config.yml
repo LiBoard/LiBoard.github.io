@@ -1,0 +1,19 @@
+title: LiBoard Documentation
+email: liboard@mailbox.org
+description: >- # this means to ignore newlines until "baseurl:"
+ Documention site for LiBoard,
+ a DIY electronic chessboard using photoresistors. 
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://liboard.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  LiBoard
+
+# Build settings
+markdown: kramdown
+remote_theme: pmarsceill/just-the-docs
+plugins:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - .vendor
