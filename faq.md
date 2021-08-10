@@ -1,5 +1,6 @@
 ---
 title: FAQ
+parent: Home
 ---
 # FAQ
 ## What does the "Li" in LiBoard mean?
