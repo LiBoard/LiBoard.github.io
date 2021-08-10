@@ -8,10 +8,17 @@ nav_order: 0
 
 ---
 
-**Showcase short**
+## Current features
+* Track board position
+* Save games as PGNs
+* Emulate keyboard inputs to play on Lichess
 
-**Hardware**
+## Known problems
+* Underpromotion is not yet implemented.
 
-**App**
+## Inspiration
+* https://www.youtube.com/watch?v=uJqjMlebuHc
 
-**Lichess**
+## License
+This project is licensed under the GNU General Public License version 3
+or (at your option) any later version.
