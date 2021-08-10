@@ -17,7 +17,7 @@ nav_order: 0
 * Underpromotion is not yet implemented.
 
 ## Inspiration
-* https://www.youtube.com/watch?v=uJqjMlebuHc
+* [https://youtu.be/uJqjMlebuHc](https://youtu.be/uJqjMlebuHc)
 
 ## License
 This project is licensed under the GNU General Public License version 3
