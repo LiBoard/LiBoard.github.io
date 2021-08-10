@@ -18,9 +18,6 @@ for most of them if necessary.
 For potential alternatives, see [Design decisions](design-decisions).
 
 ## Circuit board
-![Circuit](/assets/images/hardware/circuit.png)
-![Circuit top](/assets/images/hardware/circuit-top.jpg)
-![Circuit bottom](/assets/images/hardware/circuit-bottom.jpg)
+{% include image-gallery.html folder="/assets/images/hardware/circuit" %}
 ## Chessboard
-![Board bottom](/assets/images/hardware/board-bottom.jpg)
-![Board top](/assets/images/hardware/board-top.jpg)
+{% include image-gallery.html folder="/assets/images/hardware/board" %}

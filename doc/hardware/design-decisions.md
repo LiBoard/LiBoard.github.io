@@ -35,7 +35,7 @@ LiBoard uses a photoresistor in each square in order to determine which squares
 are occupied. Each photoresistor needs to be connected to 5 V and an analog input.  
 Because wiring each photoresistor to an individual input would need more inputs than
 commonly available and would result in messy wiring, the photoresistors should be multiplexed:  
-![](/assets/images/3x3-multiplexing.png)
+![Multiplexing](/assets/images/hardware/3x3-multiplexing.png)
 Due to the  layout of a chessboard, 8x8 multiplexing is the most natural way.
 However, if fewer than 8 analog inputs are available,
 one should be able to do 16x4 multiplexing without too much difficulty.
