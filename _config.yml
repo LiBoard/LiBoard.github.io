@@ -1,11 +1,11 @@
-title: LiBoard Documentation
+title: LiBoard
 email: liboard@mailbox.org
 description: >- # this means to ignore newlines until "baseurl:"
  Documention site for LiBoard,
- a DIY electronic chessboard using photoresistors. 
+ a DIY electronic chessboard using photoresistors.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://liboard.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  LiBoard
+github_username: LiBoard
 
 # Build settings
 markdown: kramdown
@@ -19,4 +19,4 @@ logo: "/assets/images/icon.png"
 aux_links:
   "GitHub":
     - "//github.com/LiBoard"
-
+footer_content: "Copyright &copy; 2021 Philipp Leclercq. Licensed under GPLv3."
