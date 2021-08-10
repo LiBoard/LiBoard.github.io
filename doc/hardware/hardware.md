@@ -19,5 +19,6 @@ For potential alternatives, see [Design decisions](design-decisions).
 
 ## Circuit board
 {% include image-gallery.html folder="/assets/images/hardware/circuit" %}
+[Fritzing file](/assets/download/liboard.fzz)
 ## Chessboard
 {% include image-gallery.html folder="/assets/images/hardware/board" %}
