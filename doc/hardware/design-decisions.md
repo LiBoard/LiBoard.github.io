@@ -55,7 +55,7 @@ Having unused digital outputs can come in handy if one decides to add more hardw
 However, shift registers require a bit of circuitry
 and one can easily build a working board without them.
 It's just a matter of connecting the board directly to the microcontroller's
-digital outputs and changing the [Arduino code](TODO) a bit.
+digital outputs and changing the [Arduino code](/doc/arduino) a bit.
 
 The diodes after the shift register (see [circuit diagram](hardware/#circuit-board))
 are not strictly necessary.
