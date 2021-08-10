@@ -22,7 +22,7 @@ I considered the following sensor types:
 | Type | Pieces needed | disadvantages |
 | --- | ---           | ---- |
 | Induction sensors | weighted | relatively expensive |
-| Hall sensors | magnetic | need more complex wiring |
+| Hall sensors | magnetic | needs more complex wiring |
 | Reed switches | magnetic |  |
 | Photoresistors | any | can't be "hidden", potentially prone to lighting conditions |
 
