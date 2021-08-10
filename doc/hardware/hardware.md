@@ -2,28 +2,25 @@
 title: Hardware
 nav_order: 2
 has_children: true
+has_toc: false
 ---
 # Hardware
 ## Components
 These are the components I used, but you should be able to find alternatives
 for most of them if necessary.
-I've included some replacement suggestions where applicable.
-- **SparkFun Pro Micro (5V, 16MHz)**  
-  - Alternatives: any Arduino-compatible microcontroller
-  with sufficient (ideally >=8) analog inputs
-- **64 photoresistors**  
-  Alternatives:
-  - Reed switches (need magnetic pieces)
-  - Hall sensors (need magnetic pieces and different wiring)
-  - Induction sensors (need weighted pieces)
-- **64 diodes**
+- **SparkFun Pro Micro (5V, 16MHz)**
+- **64 photoresistors**
+- **72 diodes**
 - **Shift register**
-  - Can be omitted if enough digital outputs are available
 - **8 resistors**
 - **Cables and soldering supplies**
 
-## Circuit board
-![Circuit board](/assets/images/circuit-board.png)
+For potential alternatives, see [Design decisions](design-decisions).
 
-## Board wiring
-![Board wiring](TODO)
+## Circuit board
+![Circuit](/assets/images/hardware/circuit.png)
+![Circuit top](/assets/images/hardware/circuit-top.jpg)
+![Circuit bottom](/assets/images/hardware/circuit-bottom.jpg)
+## Chessboard
+![Board bottom](/assets/images/hardware/board-bottom.jpg)
+![Board top](/assets/images/hardware/board-top.jpg)
