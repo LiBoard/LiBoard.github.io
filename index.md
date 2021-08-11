@@ -22,5 +22,4 @@ has_toc: false
 * [https://youtu.be/uJqjMlebuHc](https://youtu.be/uJqjMlebuHc)
 
 ## License
-This project is licensed under the GNU General Public License version 3
-or (at your option) any later version.
+This project is licensed under the GNU General Public License version 3.
