@@ -57,7 +57,7 @@ and one can easily build a working board without them.
 It's just a matter of connecting the board directly to the microcontroller's
 digital outputs and changing the [Arduino code](/doc/arduino) a bit.
 
-The diodes after the shift register (see [circuit diagram](hardware/#circuit-board))
+The diodes after the shift register (see [circuit diagram](hardware#circuit-board))
 are not strictly necessary.
 
 ## Pull down resistors
