@@ -6,9 +6,9 @@ parent: Home
 # TODO list
 ## Android app
 - [x] general settings
-- [ ] link to documentation
-- [ ] about page
-- [ ] share game as text
+- [x] link to documentation
+- [x] about page
+- [x] share game as text
 
 ## Arduino
 - [ ] keywords.txt
