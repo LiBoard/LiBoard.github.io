@@ -1,7 +1,7 @@
 ---
 title: Python module
 ---
-# Python module
+# {{ page.title }}
 The LiBoard Python module is used by the provided scripts and can be used for
 your own scripts.
 It handles the connection to the board and detecting legal moves played.

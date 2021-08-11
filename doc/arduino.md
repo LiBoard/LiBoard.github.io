@@ -1,7 +1,7 @@
 ---
 title: Arduino library
 ---
-# Arduino library
+# {{ page.title }}
 The Arduino library provides the code running on the board's microcontroller.
 
 ## Installation

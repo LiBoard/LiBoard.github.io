@@ -1,7 +1,7 @@
 ---
 title: Scripts
 ---
-# Scripts
+# {{ page.title }}
 Scripts to use LiBoard on PC.
 
 ## keyboard.py

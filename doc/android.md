@@ -1,7 +1,7 @@
 ---
 title: Android app
 ---
-# Android app
+# {{ page.title }}
 There's an [Android app](https://github.com/liboard/android) for LiBoard which
 can be used to save OTB games.
 Additionally, it can be used as a chess clock.  
