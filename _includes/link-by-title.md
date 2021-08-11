@@ -1,0 +1,1 @@
+{% for page in site.pages %}{% if page.title == include.title %}[{% if include.text %} {{ include.text }}{% else %} {{ page.title }} {% endif %}]({{ page.url }}{{ include.suffix }}){% break %}{% endif %}{% endfor %}

@@ -16,7 +16,8 @@ has_toc: false
 * Emulate keyboard inputs to play on Lichess
 
 ## Known problems
-* Underpromotion is not yet implemented.
+See [Technical limitations](/doc/how-it-works#technical-limitations)
+and [TODO list](/doc/todo).
 
 ## Inspiration
 * [https://youtu.be/uJqjMlebuHc](https://youtu.be/uJqjMlebuHc)
