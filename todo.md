@@ -5,9 +5,10 @@ parent: Home
 
 # TODO list
 ## Android app
-- [ ] general settings (theme, show sensors?)
+- [x] general settings
 - [ ] link to documentation
 - [ ] about page
+- [ ] share game as text
 
 ## Arduino
 - [ ] keywords.txt
