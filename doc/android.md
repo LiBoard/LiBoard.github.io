@@ -4,24 +4,25 @@ title: Android app
 # Android app
 There's an [Android app](https://github.com/liboard/android) for LiBoard which
 can be used to save OTB games.
-Additionally, it can be used as a chess clock.
+Additionally, it can be used as a chess clock.  
+It has a dark and a light theme.
 
 ## App layout
-![Screenshot of the app's main screen](/assets/images/app/screen-main.jpg){: width="200"}
+![Screenshot of the app's main screen](/assets/images/app/main.jpg){: width="200"}
 
 The purple floating button in the lower right corner establishes a connection to
 a board that has been connected via USB.
 
-The four tabs do the following:
+The three tabs do the following:
 - Board: Shows the current known board position and whose move it is.
 - Moves: Shows the moves which have been played in the current game.
-- Clock: A chess clock.
-- Sensors: Shows the sensor data. Can be used to diagnose problems.
+- Clock: [see Chess clock](#chess-clock)
 
-The floppy disk icon in the app bar allows users to save the current game as a PGN.
+The icons in the app bar allow saving the current game as a pgn file
+or sending it as a message.
 
 ## Chess clock
-![Screenshot of the clock tab](/assets/images/app/screen-clock.jpg){: width="200"}
+![Screenshot of the clock tab](/assets/images/app/clock.jpg){: width="200"}
 
 The chess clock measures each players time down to the millisecond.
 It supports time odds.
