@@ -5,16 +5,16 @@ parent: Home
 
 # TODO list
 ## Android app
-- [x] general settings
-- [x] link to documentation
-- [x] about page
-- [x] share game as text
-
-## Arduino
-- [ ] keywords.txt
+- underpromotion
+- optional delay in move recognition to allow "sliding" pieces
 
 ## Scripts
-- [ ] Lichess client based on Board API
+- Lichess client based on Board API
 
-## Website
-- [ ] Screenshot of app's clock tab
+## Python module
+- underpromotion
+- optional delay to allow sliding pieces
+
+## Hardware
+- Look into PCB etching
+- Look into Bluetooth connections
