@@ -16,8 +16,8 @@ has_toc: false
 * Emulate keyboard inputs to play on Lichess
 
 ## Known problems
-See [Technical limitations](doc/how-it-works#technical-limitations)
-and [TODO list](doc/todo).
+Please take a look at [Technical limitations](doc/how-it-works#technical-limitations)
+and the open issues on the corresponding GitHub repositories before reporting a bug.
 
 ## Inspiration
 * [https://youtu.be/uJqjMlebuHc](https://youtu.be/uJqjMlebuHc)
