@@ -3,15 +3,12 @@ title: Scripts
 ---
 # {{ page.title }}
 Scripts to use LiBoard on PC.
+Run the scripts with the `--help` option to see information about their arguments.
 
 ## keyboard.py
 
 Emulates keyboard inputs for the moves by one side. Can be used to play on Lichess.
 Depends on [pyautogui](https://pypi.org/project/pyautogui/).
-
-Usage:  
-For white: `python3 keyboard.py`  
-For black: `python3 keyboard.py black`
 
 ## live_board.py
 
