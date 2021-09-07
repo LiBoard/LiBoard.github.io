@@ -43,20 +43,16 @@ In order to recognize played moves, the recipient needs to determine three thing
   new bitboard ("disappearances") and vice versa ("appearances")
 - The squares in the lifted pieces set which are occupied in the new bitboard ("temporarily lifted pieces")
 
-Then the recipient checks for the following:
-- If there's one square each in disappearances and appearances: Check if there's
-  a legal, "normal" (no capture, no castling) move from the disappearance square
-  to the appearance square.
-- If there's one disappearance, no appearance and there has been at least one
-  temporarily lifted piece: Find the first (if any) temporarily lifted piece for which
-  there is a legal (not en passant) capture from the disappearance to the
-  temporarily lifted piece.
-- If there's two disappearances and one appearance: Check if there's a legal en
-  passant capture from one of the disappearances to the appearance square.
-- If there's two appearances and disappearances each: Check if any of the four
-  disappearance-appearance combinations is a legal castling move.
+The recipient then tries to find a move according to the following criteria:
 
-If such a move is found, it is "played", meaning:
+| Type | #Disappearances | #Appearances | #Temporarily lifted | Flags |
+| --- | --- | --- | --- | --- |
+| Normal | 1 | 1 | - | - |
+| Capture | 1 | - | >= 1 | capture |
+| En passant | 2 | 1 | - | capture, en passant |
+| Castling | 2 | 2 | - | castling |
+
+If a fitting move is found, it is "played", meaning:
 - The old position is updated to the position after the move.
 - The old bitboard is updated to the new bitboard.
 - The lifted pieces are cleared.
