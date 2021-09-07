@@ -2,6 +2,8 @@
 title: Android app
 ---
 # {{ page.title }}
+[Download](https://github.com/LiBoard/Android/releases){: .btn }
+
 There's an [Android app](https://github.com/liboard/android) for LiBoard which
 can be used to save OTB games.
 Additionally, it can be used as a chess clock.  
