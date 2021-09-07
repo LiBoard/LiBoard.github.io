@@ -66,6 +66,9 @@ limitations:
 - The starting position of each piece needs to be known. For standard chess,
   this isn't a problem, but it means that in order to support Chess960, the
   "recipient" would need to be told the starting position by the user.
+- A delay is needed in order to allow "sliding" pieces such as a rook over several
+  squares to its destination. Both the Python module and the app allow specifying a delay.
+  300 ms works well in my experience.
 - If a pawn is promoted, the board has no way of determining which piece is used
   to replace the pawn. Currently, it is assumed that every pawn promotes to a
   Queen. There are several paths I see to implement underpromotion:
