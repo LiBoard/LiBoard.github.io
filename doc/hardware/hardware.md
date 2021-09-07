@@ -17,6 +17,18 @@ for most of them if necessary.
 
 For potential alternatives, see [Design decisions](design-decisions).
 
+## Cost
+The electronics used in this project cost me around 35€, divided as follows:
+
+| Part | Price |
+| --- | --- |
+| Pro micro | 10€ |
+| Photoresistors | 13€ (for 350 pcs) |
+| Shift register | 1€ |
+| Cables, diodes, etc. | ~10€ |
+
+This is significantly cheaper than commercial alternatives, which cost several hundred Euros.
+
 ## Circuit board
 {% include image-gallery.html folder="/assets/images/hardware/circuit" %}
 [Fritzing file](/assets/download/liboard.fzz)
