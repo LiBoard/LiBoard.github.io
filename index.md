@@ -13,7 +13,7 @@ has_toc: false
 ## Current features
 * Track board position
 * Save games as PGNs
-* Emulate keyboard inputs to play on Lichess
+* Play on Lichess
 
 ## Showcase
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BO89Nh89irY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
